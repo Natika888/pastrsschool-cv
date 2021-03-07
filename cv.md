@@ -1,7 +1,7 @@
 1. Nataliia Krikun
 1. Contact Info:
     * Email: krinata888@gmail.com
-    * Phone: (067) 598-31-15
+    * Phone: (067) 598-31-15.
 1. Summary: Versatile Front-end Developer with 0+ years of experience designing, developing, and managing complex e-commerce sites and internal frameworks. Specializes in responsive design. 
 1. Skills:
     * HTML
