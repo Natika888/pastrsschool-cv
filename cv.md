@@ -9,8 +9,8 @@
     * JS
 1. Code examples: https://natika888.github.io/spacey/
 1. Experience:
-    * Course Front End Basic 2019 (finished)
-    * Course Udemy "Modern JS+Vue" (in process) 
+    * Course Front End Basic 2019 (finished).
+    * Course Udemy "Modern JS+Vue" (in process).
 1. Education:
     * Shevchenko NU, faculty of Cybernetics.
 1. English  - B1 Intermediate level
