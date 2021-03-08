@@ -5,16 +5,49 @@
    
 }
 
-.container {
-    max-width: 1024px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+body {
+    background-color: rgb(192,205,240);
+    
 }
 
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    
+    justify-content: center;
+}
+
+aside {
+    width: 30%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 40px;
+    background-color: rgba(2,0,36,1);
+}
+
+hr {
+    width: 90%;
+} 
+
+.container {
+    max-width: 70%;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+    background: #fff;
+    
+}
+
+
+
 .head {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,44 +66,61 @@
 }
 
 .head__pic {
-    width: 100px;
+    margin: 20px;
+    width: 150px;
     border-radius: 50%;
     border: solid rgb(213, 213, 223);
 
 }
 
-.box {
-    width: 600px;
-    margin: 10px auto;  
-    line-height:25px;  
-    border: solid rgb(244, 244, 248);
-    box-shadow: currentColor 2px 2px 5px;
-}
-
-.contacts {      
-    text-align: left;
-    padding: 2vh 20vh;    
-}
-
-.contacts__title {
-    text-align: center;
-}
-
-.summary {
-    padding: 2vh ;
-}
-
-.skills,
-.expa {
+.main__box {
+    height: 100%;
     display: flex;
-    justify-content: space-around;
-    text-align: left;
-    padding: 1vh 5%;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 30px;  
+    font-size: 20px;
+    padding: 5%;
 }
+
+.main__box p {
+    text-align: justify;
+}
+
+.contacts, .skills, .lang {   
+    
+    color: bisque; 
+}
+
+.contacts__title,
+.lang__title , .contacts__title, .skills__title {
+    text-align: center;
+    font-size: 26px;
+    }
 
 .skills__title {    
     line-height: 75px;
 }
 .expa__title {    
     line-height: 50px;
+}
+
+footer {
+width: 1200px;
+margin: auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 5px 0;
+}
+
+footer img {
+    
+    height: calc(5vh - 10px);
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(10, 10, 56);
+    font-weight: bold;
 }
